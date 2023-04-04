@@ -19,12 +19,15 @@ The main target variable will be 'owners', and since it given as a range, the mi
 After some preliminary exploratory data analysis, here are some quick infographs.
 
 The number of native English games (98.11%) to non-English (1.89%)
+
 ![newplot](https://user-images.githubusercontent.com/54910000/229918221-f2954e9d-d9bf-4651-b1c8-d749b84aedd2.png)
 
 About 9.46% are free games, 90.54% are paid games.
+
 ![newplot (1)](https://user-images.githubusercontent.com/54910000/229919070-d11d4564-fbdc-4867-b8f8-b3e4783f9eb7.png)
 
-The number of games released on Steam has exploded since 2014. (Mind the cut off for 2019 limited to the dataset cutoff)
+The number of games released on Steam has exploded since 2014. (Mind the cut off for 2019 limited to the dataset collection)
+
 ![newplot (2)](https://user-images.githubusercontent.com/54910000/229919772-00895fbc-2ddc-4fae-b585-e485b60744c1.png)
 
 Most certainly, there are correlations between 'positive_ratings', 'negative_ratings', 'average_playtime', 'median_playtime', and 'owners'. However the more curious finding will be what features that might correlate with success, will a type of category, platform, genre or tag succeed more than others.
