@@ -36,3 +36,12 @@ There are an abundance of games released on the Steam platform, and as a side ef
 Games such as Dota2, Team Fortress 2, Counter-Strike:Global Offensive are (or have since become) free-to-play, accessible on Mac and Linux, and have dominant Esports presence, notably Dota2 having one of the hiest overall prize pools in Esports history at $40 million dollars (The International 2021, Dota 2 International Esports Tournament), it won't come as a surprise the amount of attention glued to these games are likely to be popular and to have high ownership, resulting in an over successful game that is likely to be considered an outlier.
 
 Since the initial features like 'categories' and 'steamspy_tags' are semicolon delimited, feature engineering techniques like OneHotEncoder and LabelEncoder has been applied to allow some algorithms to be applied.
+
+## Models
+Linear Regression
+XGBRegressor
+RandomForestRegressor
+KNeighborsRegressor
+KMeans
+NearestNeighbors
+Decision Tree
