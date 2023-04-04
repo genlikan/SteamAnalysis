@@ -37,11 +37,17 @@ Games such as Dota2, Team Fortress 2, Counter-Strike:Global Offensive are (or ha
 
 Since the initial features like 'categories' and 'steamspy_tags' are semicolon delimited, feature engineering techniques like OneHotEncoder and LabelEncoder has been applied to allow some algorithms to be applied.
 
-## Models
+## Models Used
 Linear Regression
+
 XGBRegressor
+
 RandomForestRegressor
+
 KNeighborsRegressor
+
 KMeans
+
 NearestNeighbors
+
 Decision Tree
