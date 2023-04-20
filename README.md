@@ -37,6 +37,39 @@ Games such as Dota2, Team Fortress 2, Counter-Strike:Global Offensive are (or ha
 
 Since the initial features like 'categories' and 'steamspy_tags' are semicolon delimited, feature engineering techniques like OneHotEncoder and LabelEncoder has been applied to allow some algorithms to be applied.
 
+NLP Results
+
+In the interest of keeping the game title private, the following node graph displays a game with the keywords ‘audio’, ‘price’, and ‘graphics’. While some optimizations based on the removal of non-technical words may be in order, it has proven challenging as some games may contain a variety of different ‘made up’ words, or in-game character names in reference to their review topic. There have been some attempts for the removal of troll comments or dissenters, however it is due to the passion of these gamers through the guise of their anonymity behind a Steam Username that allows for their verbosity, forthrightness and candor, leading to a more honest review of Steam games.
+
+![image](https://user-images.githubusercontent.com/54910000/233252380-aa7bd6d9-01d6-4dcf-af62-7e1837cd1dc7.png)
+
+From these node graphs, we can see that with some keywords selected, this game title was not well received, citing gameplay-related issues, bad writing and cringey story, terribly overpriced, and ‘stupid’ graphics. 
+
+ 
+
+While the aim of this study is not to replace the face of Steam Reviews, I believe it will give developers/publishers and potential gamers a better understanding of the game in their current state. As is with the human language and the human experience, language and its people will continue to evolve which will require continued analysis and further different techniques to narrow down the fine details of the quality of a game based on text on an online digital gaming platform. 
+
+Curious Notes: 
+
+In a preliminary exploratory analysis, there are findings that some titles are disproportionately played by certain demographics, while the propensity and willingness of providing a Steam game review does not immediately indicate the proportion of any particular nationality, I believe it remains a strong indicator of the expected player base, especially for online competitive multiplayer games such as Counter-strike.
+
+
+![image](https://user-images.githubusercontent.com/54910000/233252584-036655a1-cf0f-4109-a6f8-63a2c62179cb.png)
+
+The following are some early exploratory graphs testing for accuracy and sentimentality. Noting that most words are stopwords that are connecting other related features. There were attempts to create an LDAvis but due to technical issues and time constraints, was unable to procure an image before it crashed. Attempts to create a summarizer using gensim was unsuccessful due to the feature being depriciated in later updates. 
+
+
+![image](https://user-images.githubusercontent.com/54910000/233252739-9c3b8126-f304-429b-bdeb-3cc310c27061.png)
+
+![image](https://user-images.githubusercontent.com/54910000/233252748-27b5d8de-8806-4519-a57e-98bbfeb14fbd.png)
+
+While most others like ‘V Rising’ and ‘The Forest’ below are disproportionately English players (as are most games on Steam). 
+
+
+![image](https://user-images.githubusercontent.com/54910000/233253029-94788bd6-5d28-43d8-9134-97f40d485062.png)
+![image](https://user-images.githubusercontent.com/54910000/233253038-4d4ffe4e-411b-44fc-8e49-45770a920b4d.png)
+
+The following are some early exploratory graphs testing for accuracy and sentimentality. Noting that most words are stopwords that are connecting other related features. There were attempts to create an LDAvis but due to technical issues and time constraints, was unable to procure an image before it crashed. Attempts to create a summarizer using gensim was unsuccessful due to the feature being depriciated in later updates. 
 ## Models Used
 Linear Regression
 
